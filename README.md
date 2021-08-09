@@ -1,2 +1,2 @@
 # calculator
- basic arithmetic calc.
+ Basic arithmetic calculator solving addition, subtraction, multiplication and division problems.
