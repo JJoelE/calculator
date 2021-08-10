@@ -49,6 +49,6 @@ func main() {
 		fmt.Println(answer)
 	}
 	if operator != "+" && operator != "-" && operator != "/" && operator != "*" {
-		fmt.Println("invalid operator")
+		fmt.Println("invalid operator ")
 	}
 }
