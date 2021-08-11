@@ -1,2 +1,3 @@
 # calculator
- basic arithmetic calculators sovling addition, subtraction, multiplication, and division!
+
+ Basic arithmetic calculator solving addition, subtraction, multiplication and division problems.
