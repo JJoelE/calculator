@@ -29,10 +29,10 @@ func main() {
 	case "/":
 		if secondnumber == 0.0 {
 			fmt.Println("cant divide any thing by zero")
-		} /* else {
-				fmt.Printf("%.2f %s %.2f = %.2f", firstnumber, operator, secondnumber, firstnumber/secondnumber)
-			}
-		default:
-			fmt.Println("not valid operator")*/
+		} else {
+			fmt.Printf("%.2f %s %.2f = %.2f", firstnumber, operator, secondnumber, firstnumber/secondnumber)
+		}
+	default:
+		fmt.Println("not valid operator")
 	}
 }
