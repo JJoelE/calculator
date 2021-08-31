@@ -17,22 +17,23 @@ func main() {
 	fmt.Scanln(&operator)
 
 	switch operator {
-	case "+":
-		fmt.Printf("%5.2f %s %.2f = %.2f", firstnumber, operator, secondnumber, firstnumber+secondnumber)
+	case "+", "-", "*", "/":
+		fmt.printf(firstnumber + secondnumber)
+		/*fmt.Printf("%5.2f %s %.2f = %.2f", firstnumber, operator, secondnumber, firstnumber+secondnumber)
 
-	case "-":
-		fmt.Printf("%.2f %s %.2f = %.2f", firstnumber, operator, secondnumber, firstnumber-secondnumber)
+		case "-":
+			fmt.Printf("%.2f %s %.2f = %.2f", firstnumber, operator, secondnumber, firstnumber-secondnumber)
 
-	case "*":
-		fmt.Printf("%.2f %s %.2f = %.2f", firstnumber, operator, secondnumber, firstnumber*secondnumber)
+		case "*":
+			fmt.Printf("%.2f %s %.2f = %.2f", firstnumber, operator, secondnumber, firstnumber*secondnumber)
 
-	case "/":
-		if secondnumber == 0.0 {
-			fmt.Println("cant divide any thing by zero")
-		} /* else {
+		case "/":
+			if secondnumber == 0.0 {
+				fmt.Println("cant divide any thing by zero")
+			} else {
 				fmt.Printf("%.2f %s %.2f = %.2f", firstnumber, operator, secondnumber, firstnumber/secondnumber)
-			}
-		default:
-			fmt.Println("not valid operator")*/
+			}*/
+	default:
+		fmt.Println("not valid operator")
 	}
 }
